@@ -45,14 +45,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Can Tho Food */}
+          {/* Service Areas */}
           <div>
             <h4 className="text-lg font-semibold mb-4">{siteData.footer.title}</h4>
             <p className="text-gray-300 mb-4">{siteData.footer.description}</p>
             <ul className="space-y-2">
-              {siteData.footer.dishes.map((dish, index) => (
+              {siteData.footer.areas.map((area, index) => (
                 <li key={index} className="text-gray-300 text-sm">
-                  • {dish}
+                  • {area}
                 </li>
               ))}
             </ul>

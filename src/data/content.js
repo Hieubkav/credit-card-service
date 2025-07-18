@@ -132,15 +132,15 @@ export const siteData = {
 
   // Footer
   footer: {
-    title: "Ẩm Thực Cần Thơ",
-    description: "Khám phá hương vị đặc trưng của miền Tây sông nước",
-    dishes: [
-      "Bánh xèo Cần Thơ",
-      "Bún riêu cua đồng",
-      "Cơm tấm sườn nướng",
-      "Bánh cống",
-      "Lẩu mắm",
-      "Bánh tét lá cẩm"
+    title: "Khu Vực Phục Vụ",
+    description: "Chúng tôi phục vụ tại tất cả các quận huyện trong thành phố Cần Thơ",
+    areas: [
+      "Quận Ninh Kiều",
+      "Quận Cái Răng",
+      "Quận Bình Thủy",
+      "Quận Ô Môn",
+      "Huyện Thốt Nốt",
+      "Huyện Cờ Đỏ"
     ],
     social: [
       { name: "Facebook", url: "#" },
