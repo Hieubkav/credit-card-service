@@ -45,3 +45,5 @@ Trong file `package.json`, cập nhật homepage:
 - Nếu build thất bại, deployment sẽ không chạy
 - Có thể xem log chi tiết trong tab "Actions" của repository
 - Website sẽ có sẵn sau vài phút kể từ khi deployment thành công
+- Workflow sử dụng Node.js 20 để tương thích với Vite 7.x
+- Chỉ sử dụng file .cjs cho config (postcss.config.cjs, tailwind.config.cjs)
