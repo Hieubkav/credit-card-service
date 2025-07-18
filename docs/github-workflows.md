@@ -19,11 +19,17 @@ Dự án này sử dụng GitHub Actions để tự động build và deploy lê
 ### 1. Bật GitHub Pages
 1. Vào repository Settings
 2. Scroll xuống phần "Pages"
-3. Chọn Source: "Deploy from a branch"
-4. Chọn branch: `gh-pages`
-5. Folder: `/ (root)`
+3. Chọn Source: "GitHub Actions"
 
-### 2. Cập nhật base URL
+### 2. Bật quyền cho GitHub Actions
+1. Vào repository Settings
+2. Chọn Actions → General
+3. Scroll xuống "Workflow permissions"
+4. Chọn "Read and write permissions"
+5. Tick "Allow GitHub Actions to create and approve pull requests"
+6. Click Save
+
+### 3. Cập nhật base URL
 Trong file `vite.config.js`, đảm bảo `base` đúng với tên repository:
 ```js
 export default defineConfig({
@@ -32,7 +38,7 @@ export default defineConfig({
 })
 ```
 
-### 3. Cập nhật package.json
+### 4. Cập nhật package.json
 Trong file `package.json`, cập nhật homepage:
 ```json
 {
