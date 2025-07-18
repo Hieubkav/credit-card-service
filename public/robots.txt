@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://hieubkav.github.io/credit-card-service/sitemap.xml
+
+# Disallow crawling of build files
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow important pages
+Allow: /
+Allow: /#home
+Allow: /#about  
+Allow: /#contact
+
+# Crawl delay (optional)
+Crawl-delay: 1

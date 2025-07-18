@@ -12,23 +12,23 @@ export const siteData = {
 
   // Hero Section
   hero: {
-    title: "Dịch Vụ Rút Tiền Thẻ Tín Dụng",
-    subtitle: "Uy tín - An toàn - Chi phí thấp",
+    title: "Rút Tiền Thẻ Tín Dụng Cần Thơ",
+    subtitle: "Phí thấp 1.8% - Uy tín - An toàn - Hỗ trợ 24/7",
     services: [
       {
         icon: "💳",
-        title: "Rút tiền thẻ tín dụng",
-        description: "Phí thấp, thủ tục nhanh gọn"
+        title: "Rút tiền thẻ tín dụng Cần Thơ",
+        description: "Phí chỉ 1.8%, thủ tục nhanh 5 phút"
       },
       {
         icon: "🔄",
-        title: "Đáo hạn thẻ tín dụng",
-        description: "Giúp bạn thanh toán đúng hạn"
+        title: "Đáo hạn thẻ tín dụng Cần Thơ",
+        description: "Giúp bạn thanh toán đúng hạn, tránh phí phạt"
       },
       {
         icon: "💰",
-        title: "Quẹt thẻ lấy tiền",
-        description: "Hỗ trợ 24/7, mọi lúc mọi nơi"
+        title: "Quẹt thẻ lấy tiền Cần Thơ",
+        description: "Hỗ trợ 24/7, đến tận nơi theo yêu cầu"
       },
       {
         icon: "🏪",
@@ -51,8 +51,8 @@ export const siteData = {
 
   // About Service
   about: {
-    title: "Về Dịch Vụ Của Chúng Tôi",
-    description: "Chúng tôi cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng uy tín tại Cần Thơ với mức phí cạnh tranh và thủ tục đơn giản. Đội ngũ chuyên nghiệp, kinh nghiệm nhiều năm trong lĩnh vực tài chính.",
+    title: "Dịch Vụ Rút Tiền Thẻ Tín Dụng #1 Cần Thơ",
+    description: "Chúng tôi là đơn vị hàng đầu cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng tại Cần Thơ với phí thấp nhất chỉ 1.8%. Phục vụ tất cả quận huyện: Ninh Kiều, Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. Đội ngũ chuyên nghiệp với hơn 5 năm kinh nghiệm trong lĩnh vực tài chính.",
     advantages: [
       {
         icon: "⚡",
