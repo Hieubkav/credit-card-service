@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure full height layout */
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Custom animations - Subtle and professional */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom utilities */
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.3s ease-out;
+}
+
+/* Subtle hover effects */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Contact widget specific styles */
+.contact-widget {
+  /* Ensure enough space for mobile labels */
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .contact-widget {
+    padding-bottom: 0;
+  }
+}
+
+/* Remove any extra spacing that could cause gaps */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Button hover effects for contact and scroll buttons */
+.contact-button, .scroll-button {
+  transition: all 0.2s ease;
+}
+
+.contact-button:hover, .scroll-button:hover {
+  transform: translateY(-1px);
+}
+
+/* Consistent styling for all floating buttons */
+.floating-button {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
