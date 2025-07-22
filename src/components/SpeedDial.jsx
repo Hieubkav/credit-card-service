@@ -1,6 +1,8 @@
 import React from 'react';
-import { FiPhone, FiMessageCircle, FiArrowUp } from 'react-icons/fi';
+import { FiPhone, FiArrowUp } from 'react-icons/fi';
 import { siteData } from '../data/content';
+import zaloIcon from '../assets/images/zalo_icon.webp';
+import messengerIcon from '../assets/images/mess_icon.webp';
 
 const SpeedDial = () => {
   // Scroll to top function
@@ -11,13 +13,21 @@ const SpeedDial = () => {
     });
   };
 
-  // Icon mapping với SVG tối ưu
+  // Icon mapping với PNG images
   const iconMap = {
-    '💬': FiMessageCircle,
+    '💬': () => (
+      <img
+        src={messengerIcon}
+        alt="Messenger"
+        className="w-10 h-10 lg:w-12 lg:h-12 object-contain"
+      />
+    ),
     '📱': () => (
-      <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 lg:w-6 lg:h-6">
-        <path d="M17 2H7c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM7 4h10v12H7V4z"/>
-      </svg>
+      <img
+        src={zaloIcon}
+        alt="Zalo"
+        className="w-10 h-10 lg:w-12 lg:h-12 object-contain"
+      />
     ),
     '📞': FiPhone,
     'back-to-top': FiArrowUp
@@ -39,13 +49,13 @@ const SpeedDial = () => {
         icon: '📞'
       },
       '📱': {
-        colors: 'bg-blue-500 hover:bg-blue-600 focus:ring-blue-200',
+        colors: 'bg-transparent hover:scale-110 focus:ring-blue-200',
         name: item?.name || 'Zalo',
         href: item?.url,
         icon: '📱'
       },
       '💬': {
-        colors: 'bg-purple-500 hover:bg-purple-600 focus:ring-purple-200',
+        colors: 'bg-transparent hover:scale-110 focus:ring-purple-200',
         name: item?.name || 'Messenger',
         href: item?.url,
         icon: '💬'

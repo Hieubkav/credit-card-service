@@ -17,28 +17,28 @@ export const siteData = {
     services: [
       {
         icon: "💳",
-        title: "Rút tiền thẻ tín dụng Cần Thơ",
-        description: "Phí chỉ 1.8%, thủ tục nhanh 5 phút"
+        title: "Quẹt thẻ - Rút tiền",
+        description: "Nhanh 5 phút • Không cần thẻ chấp"
       },
       {
         icon: "🔄",
-        title: "Đáo hạn thẻ tín dụng Cần Thơ",
-        description: "Giúp bạn thanh toán đúng hạn, tránh phí phạt"
+        title: "Đáo hạn thẻ tín dụng",
+        description: "Tránh phí trễ • Giữ tín dụng tốt"
       },
       {
         icon: "💰",
-        title: "Quẹt thẻ lấy tiền Cần Thơ",
-        description: "Hỗ trợ 24/7, đến tận nơi theo yêu cầu"
+        title: "Rút ví trả sau",
+        description: "Phí hợp lý • Tiết kiệm thời gian"
       },
       {
         icon: "🏪",
-        title: "Thanh toán hóa đơn",
-        description: "Tiện lợi, nhanh chóng"
+        title: "Thanh toán online",
+        description: "24/7 • Bảo mật cao • Đa dạng"
       },
       {
         icon: "🤝",
-        title: "Tư vấn tài chính",
-        description: "Miễn phí, chuyên nghiệp"
+        title: "Tư vấn mở thẻ - Vay vốn",
+        description: "Lãi suất tốt • Hỗ trợ tận tâm"
       }
     ]
   },
