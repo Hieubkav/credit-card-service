@@ -8,7 +8,6 @@ import FAQ from './components/FAQ';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import SpeedDial from './components/SpeedDial';
-import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
       </main>
       <Footer />
       <SpeedDial />
-      <ScrollToTop />
     </div>
   );
 }
