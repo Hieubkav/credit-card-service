@@ -70,7 +70,7 @@ const About = () => {
 
     return (
       <div
-        className="relative rounded-2xl h-full overflow-hidden"
+        className="relative rounded-2xl h-full overflow-hidden shadow-lg carousel-container"
         onMouseEnter={() => setIsPlaying(false)}
         onMouseLeave={() => setIsPlaying(true)}
         role="region"
@@ -82,35 +82,35 @@ const About = () => {
           <img
             src={currentSlideData.image}
             alt={currentSlideData.alt}
-            className="w-full h-full object-cover rounded-2xl transition-all duration-500 ease-in-out"
+            className="carousel-image transition-all duration-500 ease-in-out"
           />
 
           {/* Navigation arrows */}
           <button
             onClick={goToPrevious}
-            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-primary-600 p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
+            className="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-primary-600 p-2 sm:p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
             aria-label="Slide trước"
           >
-            <FiChevronLeft className="w-5 h-5" />
+            <FiChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
 
           <button
             onClick={goToNext}
-            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-primary-600 p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
+            className="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-primary-600 p-2 sm:p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
             aria-label="Slide tiếp theo"
           >
-            <FiChevronRight className="w-5 h-5" />
+            <FiChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
 
           {/* Dots indicator */}
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+          <div className="absolute bottom-3 sm:bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
             {carouselSlides.map((_, index) => (
               <button
                 key={index}
                 onClick={() => goToSlide(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white ${
+                className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white ${
                   index === currentSlide
-                    ? 'bg-white w-8'
+                    ? 'bg-white w-6 sm:w-8'
                     : 'bg-white/60 hover:bg-white/80'
                 }`}
                 aria-label={`Đi đến slide ${index + 1}`}
@@ -119,9 +119,9 @@ const About = () => {
           </div>
 
           {/* Play/Pause indicator */}
-          <div className="absolute top-4 right-4">
+          <div className="absolute top-3 sm:top-4 right-3 sm:right-4">
             <div
-              className={`w-3 h-3 rounded-full transition-colors duration-200 ${
+              className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full transition-colors duration-200 ${
                 isPlaying ? 'bg-green-400' : 'bg-yellow-400'
               }`}
               title={isPlaying ? 'Đang tự động chuyển slide' : 'Đã tạm dừng'}
@@ -146,7 +146,7 @@ const About = () => {
         </div>
 
         {/* Main Content Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center mb-12">
           {/* Left Content */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
@@ -196,7 +196,7 @@ const About = () => {
           </div>
 
           {/* Right Content - Service Carousel */}
-          <div className="h-80 md:h-96">
+          <div className="w-full max-w-full overflow-hidden">
             <ServiceCarousel />
           </div>
         </div>
