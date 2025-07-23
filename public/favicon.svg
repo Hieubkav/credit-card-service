@@ -5,25 +5,25 @@
       <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
     </linearGradient>
   </defs>
-  
+
   <!-- Background circle -->
   <circle cx="16" cy="16" r="15" fill="url(#cardGradient)" stroke="#0369a1" stroke-width="2"/>
-  
+
   <!-- Credit card -->
   <rect x="6" y="11" width="20" height="12" rx="2" fill="white" stroke="#0369a1" stroke-width="0.5"/>
-  
+
   <!-- Magnetic stripe -->
   <rect x="6" y="14" width="20" height="2" fill="#1f2937"/>
-  
+
   <!-- Chip -->
   <rect x="8" y="17" width="3" height="2.5" rx="0.5" fill="#fbbf24" stroke="#f59e0b" stroke-width="0.3"/>
-  
+
   <!-- Card number dots -->
   <circle cx="13" cy="19" r="0.5" fill="#6b7280"/>
   <circle cx="15" cy="19" r="0.5" fill="#6b7280"/>
   <circle cx="17" cy="19" r="0.5" fill="#6b7280"/>
   <circle cx="19" cy="19" r="0.5" fill="#6b7280"/>
-  
-  <!-- Dollar sign -->
-  <text x="22" y="21" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#0ea5e9">$</text>
+
+  <!-- Money symbol -->
+  <text x="22" y="21" font-family="Arial, sans-serif" font-size="4" font-weight="bold" fill="#0ea5e9">₫</text>
 </svg>

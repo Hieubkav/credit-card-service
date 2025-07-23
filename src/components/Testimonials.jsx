@@ -1,19 +1,8 @@
 import React from 'react';
-import { FiStar, FiMapPin, FiUser } from 'react-icons/fi';
+import { FiMapPin, FiUser } from 'react-icons/fi';
 import { siteData } from '../data/content';
 
 const Testimonials = () => {
-  const renderStars = (rating) => {
-    return Array.from({ length: 5 }, (_, index) => (
-      <FiStar
-        key={index}
-        className={`w-5 h-5 ${
-          index < rating ? 'text-yellow-400 fill-current' : 'text-gray-300'
-        }`}
-      />
-    ));
-  };
-
   return (
     <section className="py-12 lg:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +24,9 @@ const Testimonials = () => {
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex items-center mb-4">
-                {renderStars(review.rating)}
+                <div className="text-primary-600 font-semibold">
+                  Đánh giá: {review.rating}/5
+                </div>
               </div>
               <p className="text-gray-600 mb-6 italic">
                 "{review.content}"
@@ -74,7 +65,9 @@ const Testimonials = () => {
                   "{review.content}"
                 </p>
                 <div className="flex items-center mt-3">
-                  {renderStars(5)}
+                  <div className="text-primary-600 font-semibold text-sm">
+                    Đánh giá: 5/5
+                  </div>
                 </div>
               </div>
             ))}
@@ -92,7 +85,7 @@ const Testimonials = () => {
           </div>
           <div className="text-center">
             <div className="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-2xl font-bold">5★</span>
+              <span className="text-2xl font-bold">5.0</span>
             </div>
             <h4 className="font-semibold text-gray-900 mb-2">Đánh giá</h4>
             <p className="text-gray-600 text-sm">Điểm đánh giá trung bình</p>

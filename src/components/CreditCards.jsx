@@ -55,7 +55,7 @@ const CreditCards = () => {
                 Tất cả loại thẻ
               </h3>
               <p className="text-gray-600">
-                Hỗ trợ mọi loại thẻ tín dụng trong và ngoài nước
+                Hỗ trợ mọi loại thẻ tín dụng
               </p>
             </div>
             <div>

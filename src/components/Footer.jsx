@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
+import { FiMapPin } from 'react-icons/fi';
 import { siteData } from '../data/content';
 
 const Footer = () => {
@@ -16,16 +16,6 @@ const Footer = () => {
               Phục vụ 24/7 với mức phí chỉ từ 1.8%.
             </p>
             <div className="space-y-3">
-              <div className="flex items-center space-x-3">
-                <FiPhone className="w-5 h-5 text-primary-400" />
-                <a href="tel:0939117282" className="text-gray-300 hover:text-white">
-                  0939.11.72.82
-                </a>
-              </div>
-              <div className="flex items-center space-x-3">
-                <FiMail className="w-5 h-5 text-primary-400" />
-                <span className="text-gray-300">info@ruttiencantho.com</span>
-              </div>
               <div className="flex items-center space-x-3">
                 <FiMapPin className="w-5 h-5 text-primary-400" />
                 <span className="text-gray-300">Cần Thơ, Việt Nam</span>

@@ -17,23 +17,23 @@ export const siteData = {
     services: [
       {
         title: "Quẹt thẻ - Rút tiền",
-        description: "Nhanh 5 phút • Không cần thẻ chấp"
+        description: "Nhanh 5 phút"
       },
       {
         title: "Đáo hạn thẻ tín dụng",
-        description: "Tránh phí trễ • Giữ tín dụng tốt"
+        description: "Tránh trễ hạn"
       },
       {
         title: "Rút ví trả sau",
-        description: "Chỉ từ 1.8% • Tiết kiệm thời gian"
+        description: "Chỉ từ 2.5%"
       },
       {
         title: "Thanh toán online",
-        description: "24/7 • Bảo mật cao • Đa dạng"
+        description: "Tiện lợi 24/7"
       },
       {
         title: "Tư vấn mở thẻ - Vay vốn",
-        description: "Lãi suất tốt • Hỗ trợ tận tâm"
+        description: "Tư vấn miễn phí"
       }
     ]
   },

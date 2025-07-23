@@ -6,7 +6,7 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "Phí rút tiền thẻ tín dụng tại Cần Thơ là bao nhiều?",
+      question: "Phí rút tiền thẻ tín dụng tại Cần Thơ là bao nhiêu?",
       answer: "Phí rút tiền thẻ tín dụng tại Cần Thơ chỉ từ 1.8%, thấp nhất thị trường. Chúng tôi cam kết mức phí cạnh tranh và minh bạch, không phí ẩn."
     },
     {
