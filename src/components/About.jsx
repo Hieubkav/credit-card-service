@@ -1,39 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import { FiZap, FiShield, FiAward, FiPhone, FiChevronLeft, FiChevronRight, FiCreditCard, FiRefreshCw, FiHome, FiLock } from 'react-icons/fi';
+import { FiZap, FiShield, FiAward, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { siteData } from '../data/content';
+import carousel1 from '../assets/images/carousel1.webp';
+import carousel2 from '../assets/images/carousel2.webp';
 
 const About = () => {
   // Carousel data
   const carouselSlides = [
     {
       id: 1,
-      icon: FiCreditCard,
-      title: "Rút tiền thẻ tín dụng",
-      description: "Dịch vụ rút tiền nhanh chóng từ thẻ Visa, Mastercard, JCB với mức phí chỉ từ 1.8%"
+      image: carousel1,
+      alt: "Dịch vụ rút tiền thẻ tín dụng Cần Thơ"
     },
     {
       id: 2,
-      icon: FiRefreshCw,
-      title: "Đáo hạn thẻ tín dụng",
-      description: "Hỗ trợ thanh toán thẻ tín dụng đúng hạn, tránh phí phạt và bảo vệ tín dụng của bạn"
-    },
-    {
-      id: 3,
-      icon: FiPhone,
-      title: "Hỗ trợ 24/7",
-      description: "Phục vụ liên tục 24/7, sẵn sàng hỗ trợ bạn bất cứ lúc nào trong tuần"
-    },
-    {
-      id: 4,
-      icon: FiHome,
-      title: "Phục vụ tại nhà",
-      description: "Đến tận nơi theo yêu cầu, tiết kiệm thời gian và mang lại sự tiện lợi tối đa"
-    },
-    {
-      id: 5,
-      icon: FiLock,
-      title: "An toàn bảo mật",
-      description: "Cam kết bảo mật thông tin khách hàng 100%, sử dụng công nghệ mã hóa hiện đại"
+      image: carousel2,
+      alt: "Đáo hạn thẻ tín dụng uy tín tại Cần Thơ"
     }
   ];
 
@@ -85,73 +67,66 @@ const About = () => {
   // Carousel component
   const ServiceCarousel = () => {
     const currentSlideData = carouselSlides[currentSlide];
-    const IconComponent = currentSlideData.icon;
 
     return (
       <div
-        className="relative bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-6 h-full"
+        className="relative rounded-2xl h-full overflow-hidden"
         onMouseEnter={() => setIsPlaying(false)}
         onMouseLeave={() => setIsPlaying(true)}
         role="region"
         aria-label="Dịch vụ carousel"
       >
         {/* Main slide content */}
-        <div className="bg-white rounded-xl p-6 shadow-lg h-full flex flex-col justify-center items-center text-center relative overflow-hidden">
-          {/* Slide content */}
-          <div className="transition-all duration-500 ease-in-out">
-            <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-              <IconComponent className="w-8 h-8 text-primary-600" />
-            </div>
-            <h4 className="text-xl font-bold text-gray-900 mb-3">
-              {currentSlideData.title}
-            </h4>
-            <p className="text-gray-600 text-sm leading-relaxed px-4">
-              {currentSlideData.description}
-            </p>
-          </div>
+        <div className="relative h-full">
+          {/* Image */}
+          <img
+            src={currentSlideData.image}
+            alt={currentSlideData.alt}
+            className="w-full h-full object-cover rounded-2xl transition-all duration-500 ease-in-out"
+          />
 
           {/* Navigation arrows */}
           <button
             onClick={goToPrevious}
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-primary-600 p-2 rounded-full shadow-md transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-primary-600 p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
             aria-label="Slide trước"
           >
-            <FiChevronLeft className="w-4 h-4" />
+            <FiChevronLeft className="w-5 h-5" />
           </button>
 
           <button
             onClick={goToNext}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-primary-600 p-2 rounded-full shadow-md transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/80 hover:bg-white text-primary-600 p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-primary-300"
             aria-label="Slide tiếp theo"
           >
-            <FiChevronRight className="w-4 h-4" />
+            <FiChevronRight className="w-5 h-5" />
           </button>
-        </div>
 
-        {/* Dots indicator */}
-        <div className="flex justify-center space-x-2 mt-4">
-          {carouselSlides.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-300 ${
-                index === currentSlide
-                  ? 'bg-primary-600 w-6'
-                  : 'bg-primary-300 hover:bg-primary-400'
+          {/* Dots indicator */}
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            {carouselSlides.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                className={`w-3 h-3 rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white ${
+                  index === currentSlide
+                    ? 'bg-white w-8'
+                    : 'bg-white/60 hover:bg-white/80'
+                }`}
+                aria-label={`Đi đến slide ${index + 1}`}
+              />
+            ))}
+          </div>
+
+          {/* Play/Pause indicator */}
+          <div className="absolute top-4 right-4">
+            <div
+              className={`w-3 h-3 rounded-full transition-colors duration-200 ${
+                isPlaying ? 'bg-green-400' : 'bg-yellow-400'
               }`}
-              aria-label={`Đi đến slide ${index + 1}`}
+              title={isPlaying ? 'Đang tự động chuyển slide' : 'Đã tạm dừng'}
             />
-          ))}
-        </div>
-
-        {/* Play/Pause indicator */}
-        <div className="absolute top-4 right-4">
-          <div
-            className={`w-2 h-2 rounded-full transition-colors duration-200 ${
-              isPlaying ? 'bg-green-400' : 'bg-yellow-400'
-            }`}
-            title={isPlaying ? 'Đang tự động chuyển slide' : 'Đã tạm dừng'}
-          />
+          </div>
         </div>
       </div>
     );
