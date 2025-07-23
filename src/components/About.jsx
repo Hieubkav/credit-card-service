@@ -1,16 +1,9 @@
 import React from 'react';
-import { FiZap, FiShield, FiDollarSign, FiAward, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FiZap, FiShield, FiAward, FiPhone } from 'react-icons/fi';
 import { siteData } from '../data/content';
 
 const About = () => {
-  const iconMap = {
-    '⚡': FiZap,
-    '🔒': FiShield,
-    '💵': FiDollarSign,
-    '🏆': FiAward,
-    '📞': FiPhone,
-    '📍': FiMapPin
-  };
+
 
   return (
     <section id="about" className="py-12 lg:py-16 bg-white">
@@ -89,29 +82,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Advantages Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {siteData.about.advantages.map((advantage, index) => {
-            const IconComponent = iconMap[advantage.icon] || FiZap;
-            return (
-              <div
-                key={index}
-                className="bg-gray-50 p-6 rounded-xl hover:bg-white hover:shadow-md transition-all duration-200 group animate-fadeInUp"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <div className="bg-primary-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary-200 transition-colors duration-200">
-                  <IconComponent className="w-6 h-6 text-primary-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  {advantage.title}
-                </h3>
-                <p className="text-gray-600">
-                  {advantage.description}
-                </p>
-              </div>
-            );
-          })}
-        </div>
+
 
         {/* CTA Section */}
         <div className="mt-12 bg-primary-600 rounded-2xl p-6 text-center text-white">

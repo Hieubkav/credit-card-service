@@ -53,38 +53,7 @@ export const siteData = {
   about: {
     title: "Dịch Vụ Rút Tiền Thẻ Tín Dụng #1 Cần Thơ",
     description: "Chúng tôi là đơn vị hàng đầu cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng tại Cần Thơ với mức phí chỉ từ 1.8%. Phục vụ tất cả quận huyện: Ninh Kiều, Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. Đội ngũ chuyên nghiệp với hơn 5 năm kinh nghiệm trong lĩnh vực tài chính.",
-    advantages: [
-      {
-        icon: "⚡",
-        title: "Nhanh chóng",
-        description: "Xử lý trong vòng 5-10 phút"
-      },
-      {
-        icon: "🔒",
-        title: "An toàn",
-        description: "Bảo mật thông tin tuyệt đối"
-      },
-      {
-        icon: "💵",
-        title: "Phí thấp",
-        description: "Chỉ từ 1.8% - cạnh tranh nhất thị trường"
-      },
-      {
-        icon: "🏆",
-        title: "Uy tín",
-        description: "Được hàng nghìn khách hàng tin tưởng"
-      },
-      {
-        icon: "📞",
-        title: "Hỗ trợ 24/7",
-        description: "Luôn sẵn sàng phục vụ bạn"
-      },
-      {
-        icon: "📍",
-        title: "Tại chỗ",
-        description: "Đến tận nơi theo yêu cầu"
-      }
-    ]
+
   },
 
   // Testimonials
