@@ -3,7 +3,6 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import CreditCards from './components/CreditCards';
 import About from './components/About';
-import LocalAreas from './components/LocalAreas';
 import FAQ from './components/FAQ';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
@@ -17,7 +16,6 @@ function App() {
         <Hero />
         <CreditCards />
         <About />
-        <LocalAreas />
         <FAQ />
         <Testimonials />
       </main>

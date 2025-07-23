@@ -21,10 +21,7 @@ const FAQ = () => {
       question: "Có hỗ trợ đáo hạn thẻ tín dụng không?",
       answer: "Có. Chúng tôi hỗ trợ đáo hạn thẻ tín dụng giúp bạn thanh toán đúng hạn, tránh phí phạt và ảnh hưởng tín dụng. Thủ tục nhanh gọn, chỉ từ 1.8%."
     },
-    {
-      question: "Khu vực nào tại Cần Thơ được phục vụ?",
-      answer: "Chúng tôi phục vụ tất cả quận huyện tại Cần Thơ: Ninh Kiều, Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. Hỗ trợ đến tận nơi 24/7."
-    },
+
     {
       question: "Liên hệ rút tiền thẻ tín dụng Cần Thơ như thế nào?",
       answer: "Gọi hotline 0939.11.72.82 hoặc nhắn tin Zalo để được tư vấn và hỗ trợ ngay. Chúng tôi sẵn sàng phục vụ 24/7 tại Cần Thơ."

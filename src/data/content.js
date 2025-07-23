@@ -52,7 +52,7 @@ export const siteData = {
   // About Service
   about: {
     title: "Dịch Vụ Rút Tiền Thẻ Tín Dụng #1 Cần Thơ",
-    description: "Chúng tôi là đơn vị hàng đầu cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng tại Cần Thơ với mức phí chỉ từ 1.8%. Phục vụ tất cả quận huyện: Ninh Kiều, Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. Đội ngũ chuyên nghiệp với hơn 5 năm kinh nghiệm trong lĩnh vực tài chính.",
+    description: "Chúng tôi là đơn vị hàng đầu cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng tại Cần Thơ với mức phí chỉ từ 1.8%. Đội ngũ chuyên nghiệp với hơn 5 năm kinh nghiệm trong lĩnh vực tài chính, cam kết mang đến dịch vụ uy tín, an toàn và nhanh chóng.",
 
   },
 
@@ -81,19 +81,19 @@ export const siteData = {
     ],
     localReviews: [
       {
-        location: "Ninh Kiều, Cần Thơ",
+        location: "Cần Thơ",
         content: "Dịch vụ tốt, nhân viên chuyên nghiệp"
       },
       {
-        location: "Cái Răng, Cần Thơ", 
+        location: "Cần Thơ",
         content: "Rút tiền nhanh, chỉ từ 1.8%"
       },
       {
-        location: "Ô Môn, Cần Thơ",
+        location: "Cần Thơ",
         content: "Uy tín, đáng tin cậy"
       },
       {
-        location: "Thốt Nốt, Cần Thơ",
+        location: "Cần Thơ",
         content: "Hỗ trợ tận tình, chu đáo"
       }
     ]
@@ -101,16 +101,9 @@ export const siteData = {
 
   // Footer
   footer: {
-    title: "Khu Vực Phục Vụ",
-    description: "Chúng tôi phục vụ tại tất cả các quận huyện trong thành phố Cần Thơ",
-    areas: [
-      "Quận Ninh Kiều",
-      "Quận Cái Răng",
-      "Quận Bình Thủy",
-      "Quận Ô Môn",
-      "Huyện Thốt Nốt",
-      "Huyện Cờ Đỏ"
-    ],
+    title: "Liên Hệ",
+    description: "Chúng tôi luôn sẵn sàng hỗ trợ bạn 24/7",
+    areas: [],
     social: [
       { name: "Facebook", url: "#" },
       { name: "Zalo", url: "#" },
