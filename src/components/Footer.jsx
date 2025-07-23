@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiFacebook, FiInstagram, FiPhone, FiMail, FiMapPin } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 import { siteData } from '../data/content';
 
 const Footer = () => {
@@ -71,46 +71,15 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media & CTA */}
-        <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex space-x-6 mb-4 md:mb-0">
-              {siteData.footer.social.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.url}
-                  className="text-gray-400 hover:text-white transition-colors"
-                  aria-label={social.name}
-                >
-                  {social.name === 'Facebook' && <FiFacebook className="w-6 h-6" />}
-                  {social.name === 'Instagram' && <FiInstagram className="w-6 h-6" />}
-                  {social.name === 'Zalo' && <div className="w-6 h-6 bg-blue-500 rounded text-white text-xs flex items-center justify-center font-bold">Z</div>}
-                </a>
-              ))}
-            </div>
-            <div className="text-center md:text-right">
-              <p className="text-gray-300 mb-2">Cần hỗ trợ ngay?</p>
-              <a
-                href="tel:0939117282"
-                className="bg-primary-800 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors duration-200 inline-flex items-center space-x-2"
-              >
-                <FiPhone className="w-4 h-4" />
-                <span>Gọi ngay</span>
-              </a>
-            </div>
-          </div>
-        </div>
+
       </div>
 
       {/* Bottom Bar */}
       <div className="bg-gray-800 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="text-center">
             <p className="text-gray-400 text-sm">
               {siteData.footer.copyright}
-            </p>
-            <p className="text-gray-400 text-sm mt-2 md:mt-0">
-              Thiết kế bởi <span className="text-primary-400">WebDev Team</span>
             </p>
           </div>
         </div>
