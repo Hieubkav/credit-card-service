@@ -92,7 +92,7 @@ const Footer = () => {
               <p className="text-gray-300 mb-2">Cần hỗ trợ ngay?</p>
               <a
                 href="tel:0939117282"
-                className="bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-700 transition-colors duration-200 inline-flex items-center space-x-2"
+                className="bg-primary-800 text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors duration-200 inline-flex items-center space-x-2"
               >
                 <FiPhone className="w-4 h-4" />
                 <span>Gọi ngay</span>

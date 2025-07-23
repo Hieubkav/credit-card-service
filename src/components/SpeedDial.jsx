@@ -37,7 +37,7 @@ const SpeedDial = () => {
   const getButtonConfig = (type, item = null) => {
     const configs = {
       'back-to-top': {
-        colors: 'bg-primary-600 hover:bg-primary-700 focus:ring-primary-200',
+        colors: 'bg-primary-800 hover:bg-primary-900 focus:ring-primary-200',
         name: 'Lên đầu trang',
         action: scrollToTop,
         icon: 'back-to-top'

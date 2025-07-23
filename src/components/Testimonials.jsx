@@ -84,7 +84,7 @@ const Testimonials = () => {
         {/* Stats Section */}
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center">
-            <div className="bg-primary-600 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="bg-primary-800 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold">98%</span>
             </div>
             <h4 className="font-semibold text-gray-900 mb-2">Hài lòng</h4>

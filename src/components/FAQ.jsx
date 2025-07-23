@@ -85,31 +85,7 @@ const FAQ = () => {
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="mt-12 text-center">
-          <div className="bg-primary-600 rounded-lg p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">
-              Vẫn còn thắc mắc? Liên hệ ngay!
-            </h3>
-            <p className="text-primary-100 mb-6">
-              Đội ngũ chuyên viên sẵn sàng tư vấn miễn phí 24/7
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:0939117282"
-                className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center"
-              >
-                📞 Gọi ngay: 0939.11.72.82
-              </a>
-              <a
-                href="https://zalo.me/0939117282"
-                className="bg-primary-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors inline-flex items-center justify-center"
-              >
-                💬 Chat Zalo
-              </a>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

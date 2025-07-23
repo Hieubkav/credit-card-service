@@ -228,22 +228,7 @@ const About = () => {
 
 
 
-        {/* CTA Section */}
-        <div className="mt-12 bg-primary-600 rounded-2xl p-6 text-center text-white">
-          <h3 className="text-2xl font-bold mb-4">
-            Cần hỗ trợ ngay?
-          </h3>
-          <p className="text-primary-100 mb-6">
-            Liên hệ với chúng tôi để được tư vấn miễn phí và nhận ưu đãi tốt nhất
-          </p>
-          <a
-            href="tel:0939117282"
-            className="bg-white text-primary-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 inline-flex items-center space-x-2"
-          >
-            <FiPhone className="w-5 h-5" />
-            <span>Gọi ngay: 0939.11.72.82</span>
-          </a>
-        </div>
+
       </div>
     </section>
   );
