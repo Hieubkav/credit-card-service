@@ -16,27 +16,22 @@ export const siteData = {
     subtitle: "Chỉ từ 1.8% - Uy tín - An toàn - Hỗ trợ 24/7",
     services: [
       {
-        icon: "💳",
         title: "Quẹt thẻ - Rút tiền",
         description: "Nhanh 5 phút • Không cần thẻ chấp"
       },
       {
-        icon: "🔄",
         title: "Đáo hạn thẻ tín dụng",
         description: "Tránh phí trễ • Giữ tín dụng tốt"
       },
       {
-        icon: "💰",
         title: "Rút ví trả sau",
         description: "Chỉ từ 1.8% • Tiết kiệm thời gian"
       },
       {
-        icon: "🏪",
         title: "Thanh toán online",
         description: "24/7 • Bảo mật cao • Đa dạng"
       },
       {
-        icon: "🤝",
         title: "Tư vấn mở thẻ - Vay vốn",
         description: "Lãi suất tốt • Hỗ trợ tận tâm"
       }

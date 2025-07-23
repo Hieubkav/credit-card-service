@@ -1,14 +1,18 @@
 import React from 'react';
-import { FiCreditCard, FiRefreshCw, FiDollarSign, FiShoppingBag, FiUsers } from 'react-icons/fi';
 import { siteData } from '../data/content';
+import quetTheRutTienImg from '../assets/images/dv Quẹt thẻ - Rút tiền.webp';
+import daoHanTheImg from '../assets/images/dv Đáo hạn thẻ tín dụng.webp';
+import rutViTraSauImg from '../assets/images/dv Rút ví trả sau.webp';
+import thanhToanOnlineImg from '../assets/images/dv Thanh toán online.webp';
+import tuVanMoTheImg from '../assets/images/dv Tư vấn mở thẻ - Vay vốn.webp';
 
 const Hero = () => {
-  const iconMap = {
-    '💳': FiCreditCard,
-    '🔄': FiRefreshCw,
-    '💰': FiDollarSign,
-    '🏪': FiShoppingBag,
-    '🤝': FiUsers
+  const serviceImageMap = {
+    'Quẹt thẻ - Rút tiền': quetTheRutTienImg,
+    'Đáo hạn thẻ tín dụng': daoHanTheImg,
+    'Rút ví trả sau': rutViTraSauImg,
+    'Thanh toán online': thanhToanOnlineImg,
+    'Tư vấn mở thẻ - Vay vốn': tuVanMoTheImg
   };
 
   return (
@@ -41,15 +45,19 @@ const Hero = () => {
         {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {siteData.hero.services.map((service, index) => {
-            const IconComponent = iconMap[service.icon] || FiCreditCard;
+            const serviceImage = serviceImageMap[service.title];
             return (
               <div
                 key={index}
                 className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 text-center group animate-fadeInUp"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-200 transition-colors duration-200">
-                  <IconComponent className="w-8 h-8 text-primary-600" />
+                <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 overflow-hidden group-hover:scale-110 transition-transform duration-200">
+                  <img
+                    src={serviceImage}
+                    alt={service.title}
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
                   {service.title}
