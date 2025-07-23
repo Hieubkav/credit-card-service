@@ -13,7 +13,7 @@ const Footer = () => {
             <h3 className="text-2xl font-bold mb-4">Dịch Vụ Rút Tiền</h3>
             <p className="text-gray-300 mb-6">
               Dịch vụ rút tiền và đáo hạn thẻ tín dụng uy tín tại Cần Thơ. 
-              Phục vụ 24/7 với mức phí cạnh tranh nhất.
+              Phục vụ 24/7 với mức phí chỉ từ 1.8%.
             </p>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">

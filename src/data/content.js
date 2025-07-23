@@ -13,7 +13,7 @@ export const siteData = {
   // Hero Section
   hero: {
     title: "Rút Tiền Thẻ Tín Dụng Cần Thơ",
-    subtitle: "Phí thấp 1.8% - Uy tín - An toàn - Hỗ trợ 24/7",
+    subtitle: "Chỉ từ 1.8% - Uy tín - An toàn - Hỗ trợ 24/7",
     services: [
       {
         icon: "💳",
@@ -28,7 +28,7 @@ export const siteData = {
       {
         icon: "💰",
         title: "Rút ví trả sau",
-        description: "Phí hợp lý • Tiết kiệm thời gian"
+        description: "Chỉ từ 1.8% • Tiết kiệm thời gian"
       },
       {
         icon: "🏪",
@@ -52,7 +52,7 @@ export const siteData = {
   // About Service
   about: {
     title: "Dịch Vụ Rút Tiền Thẻ Tín Dụng #1 Cần Thơ",
-    description: "Chúng tôi là đơn vị hàng đầu cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng tại Cần Thơ với phí thấp nhất chỉ 1.8%. Phục vụ tất cả quận huyện: Ninh Kiều, Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. Đội ngũ chuyên nghiệp với hơn 5 năm kinh nghiệm trong lĩnh vực tài chính.",
+    description: "Chúng tôi là đơn vị hàng đầu cung cấp dịch vụ rút tiền và đáo hạn thẻ tín dụng tại Cần Thơ với mức phí chỉ từ 1.8%. Phục vụ tất cả quận huyện: Ninh Kiều, Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. Đội ngũ chuyên nghiệp với hơn 5 năm kinh nghiệm trong lĩnh vực tài chính.",
     advantages: [
       {
         icon: "⚡",
@@ -67,7 +67,7 @@ export const siteData = {
       {
         icon: "💵",
         title: "Phí thấp",
-        description: "Mức phí cạnh tranh nhất thị trường"
+        description: "Chỉ từ 1.8% - cạnh tranh nhất thị trường"
       },
       {
         icon: "🏆",
@@ -100,7 +100,7 @@ export const siteData = {
       {
         name: "Chị Lan",
         job: "Nhân viên văn phòng",
-        content: "Phí rẻ, thủ tục đơn giản. Nhân viên tư vấn rất nhiệt tình.",
+        content: "Chỉ từ 1.8%, thủ tục đơn giản. Nhân viên tư vấn rất nhiệt tình.",
         rating: 5
       },
       {
@@ -117,7 +117,7 @@ export const siteData = {
       },
       {
         location: "Cái Răng, Cần Thơ", 
-        content: "Rút tiền nhanh, phí hợp lý"
+        content: "Rút tiền nhanh, chỉ từ 1.8%"
       },
       {
         location: "Ô Môn, Cần Thơ",

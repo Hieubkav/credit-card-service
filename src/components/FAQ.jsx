@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "Phí rút tiền thẻ tín dụng tại Cần Thơ là bao nhiều?",
-      answer: "Phí rút tiền thẻ tín dụng tại Cần Thơ chỉ từ 1.8% - 2.5%, thấp nhất thị trường. Chúng tôi cam kết mức phí cạnh tranh và minh bạch, không phí ẩn."
+      answer: "Phí rút tiền thẻ tín dụng tại Cần Thơ chỉ từ 1.8%, thấp nhất thị trường. Chúng tôi cam kết mức phí cạnh tranh và minh bạch, không phí ẩn."
     },
     {
       question: "Rút tiền thẻ tín dụng Cần Thơ có an toàn không?",
@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       question: "Có hỗ trợ đáo hạn thẻ tín dụng không?",
-      answer: "Có. Chúng tôi hỗ trợ đáo hạn thẻ tín dụng giúp bạn thanh toán đúng hạn, tránh phí phạt và ảnh hưởng tín dụng. Thủ tục nhanh gọn, phí hợp lý."
+      answer: "Có. Chúng tôi hỗ trợ đáo hạn thẻ tín dụng giúp bạn thanh toán đúng hạn, tránh phí phạt và ảnh hưởng tín dụng. Thủ tục nhanh gọn, chỉ từ 1.8%."
     },
     {
       question: "Khu vực nào tại Cần Thơ được phục vụ?",

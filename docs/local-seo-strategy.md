@@ -24,7 +24,7 @@ Website: https://hieubkav.github.io/credit-card-service/
 ### 2. GMB Description (Tối ưu keywords)
 ```
 Dịch vụ rút tiền và đáo hạn thẻ tín dụng uy tín #1 tại Cần Thơ. 
-Phí thấp nhất chỉ 1.8%, hỗ trợ 24/7 tất cả quận huyện: Ninh Kiều, 
+Chỉ từ 1.8%, hỗ trợ 24/7 tất cả quận huyện: Ninh Kiều,
 Cái Răng, Bình Thủy, Ô Môn, Thốt Nốt, Cờ Đỏ. 
 
 ✅ Rút tiền Visa, Mastercard, JCB
@@ -136,8 +136,8 @@ Hotline: 0939.11.72.82
 ```
 Positive Review Response:
 "Cảm ơn anh/chị [Name] đã tin tưởng dịch vụ rút tiền thẻ tín dụng 
-của chúng tôi tại Cần Thơ! Chúng tôi luôn cam kết mang đến dịch vụ 
-tốt nhất với phí thấp và thủ tục nhanh gọn. Rất mong được phục vụ 
+của chúng tôi tại Cần Thơ! Chúng tôi luôn cam kết mang đến dịch vụ
+tốt nhất với mức phí chỉ từ 1.8% và thủ tục nhanh gọn. Rất mong được phục vụ
 anh/chị lần sau! 🙏"
 
 Negative Review Response:

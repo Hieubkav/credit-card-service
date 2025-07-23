@@ -5,7 +5,7 @@ Website đã được tối ưu SEO toàn diện cho từ khóa "rút tiền th�
 ## ✅ Đã tối ưu
 
 ### 1. Meta Tags & Title
-- **Title**: "Rút Tiền Thẻ Tín Dụng Cần Thơ - Phí Thấp 1.8% - Hỗ Trợ 24/7"
+- **Title**: "Rút Tiền Thẻ Tín Dụng Cần Thơ - Chỉ từ 1.8% - Hỗ Trợ 24/7"
 - **Description**: Có emoji và keywords chính
 - **Keywords**: Tập trung vào địa phương Cần Thơ
 - **Geo tags**: Tọa độ Cần Thơ (10.0452, 105.7469)
@@ -50,7 +50,7 @@ Website đã được tối ưu SEO toàn diện cho từ khóa "rút tiền th�
 ### Long-tail Keywords
 - rút tiền thẻ tín dụng ninh kiều
 - rút tiền thẻ tín dụng cái răng
-- phí rút tiền thẻ tín dụng thấp
+- phí rút tiền thẻ tín dụng chỉ từ 1.8%
 - dịch vụ tài chính cần thơ
 
 ### Local Keywords
@@ -80,7 +80,7 @@ Website đã được tối ưu SEO toàn diện cho từ khóa "rút tiền th�
 
 ### 3. Content Marketing
 - Viết blog về "Cách rút tiền thẻ tín dụng"
-- "So sánh phí rút tiền các ngân hàng"
+- "So sánh phí rút tiền các ngân hàng - Chỉ từ 1.8%"
 - "Hướng dẫn đáo hạn thẻ tín dụng"
 
 ### 4. Backlinks

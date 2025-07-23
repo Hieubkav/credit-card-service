@@ -9,7 +9,7 @@ const LocalAreas = () => {
       features: [
         "Phục vụ 24/7 tại Ninh Kiều",
         "Đến tận nơi trong 15 phút",
-        "Phí thấp nhất chỉ 1.8%",
+        "Chỉ từ 1.8%",
         "Hỗ trợ tất cả loại thẻ"
       ],
       landmarks: ["Chợ Cần Thơ", "Bến Ninh Kiều", "Đại học Cần Thơ", "UBND TP Cần Thơ"],
@@ -45,7 +45,7 @@ const LocalAreas = () => {
       features: [
         "Phục vụ tận nơi Ô Môn",
         "Hỗ trợ khẩn cấp 24/7",
-        "Phí cạnh tranh nhất",
+        "Chỉ từ 1.8%",
         "Đội ngũ chuyên nghiệp"
       ],
       landmarks: ["UBND Quận Ô Môn", "Chợ Ô Môn", "Khu CN Ô Môn", "Bệnh viện Ô Môn"],
@@ -65,7 +65,7 @@ const LocalAreas = () => {
     },
     {
       name: "Huyện Cờ Đỏ",
-      description: "Rút tiền thẻ tín dụng Cờ Đỏ - Phí thấp, dịch vụ tốt",
+      description: "Rút tiền thẻ tín dụng Cờ Đỏ - Chỉ từ 1.8%, dịch vụ tốt",
       features: [
         "Phục vụ tận nhà Cờ Đỏ",
         "Thời gian xử lý nhanh",

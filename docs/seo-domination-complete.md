@@ -12,12 +12,12 @@ Website đã được tối ưu SEO cực mạnh để đạt TOP 1 Google cho "
 
 **Long-tail Keywords (Target TOP 3):**
 - rút tiền thẻ tín dụng ninh kiều/cái răng/bình thủy/ô môn/thốt nốt/cờ đỏ
-- phí rút tiền thẻ tín dụng thấp nhất
+- phí rút tiền thẻ tín dụng chỉ từ 1.8%
 - dịch vụ tài chính cần thơ 24h
 
 ### 🏗️ 2. TECHNICAL SEO (Score: 98/100)
 ✅ **Meta Tags Optimization**
-- Title: "Rút Tiền Thẻ Tín Dụng Cần Thơ - Phí Thấp 1.8% - Hỗ Trợ 24/7"
+- Title: "Rút Tiền Thẻ Tín Dụng Cần Thơ - Chỉ từ 1.8% - Hỗ Trợ 24/7"
 - Description: Emoji + keywords + CTA
 - 20+ targeted keywords trong meta
 
@@ -130,7 +130,7 @@ Website đã được tối ưu SEO cực mạnh để đạt TOP 1 Google cho "
 ✅ **Professional Design** - Trust signals, testimonials
 
 ### Unique Selling Points
-- **Phí thấp nhất 1.8%** (vs competitors 2-3%)
+- **Chỉ từ 1.8%** (vs competitors 2-3%)
 - **24/7 service** (vs business hours only)
 - **Tất cả quận huyện** (vs limited areas)
 - **Đến tận nơi** (vs fixed location)
