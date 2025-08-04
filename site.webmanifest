@@ -1,0 +1,22 @@
+{
+  "name": "Rút Tiền Thẻ Tín Dụng Cần Thơ - Phí 1.8%",
+  "short_name": "Rút Tiền CT",
+  "description": "Dịch vụ rút tiền thẻ tín dụng uy tín #1 Cần Thơ. Phí siêu thấp 1.8%, hỗ trợ 24/7, đến tận nhà",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#0ea5e9",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "categories": ["finance", "business", "utilities"],
+  "lang": "vi",
+  "dir": "ltr"
+}
