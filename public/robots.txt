@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://hieubkav.github.io/credit-card-service/sitemap.xml
+Sitemap: https://dichvuthetindungcantho.com/sitemap.xml
 
 # Disallow crawling of build files
 Disallow: /assets/
