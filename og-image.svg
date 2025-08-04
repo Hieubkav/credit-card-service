@@ -1,0 +1,47 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#gradient)"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0369a1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Title -->
+  <text x="600" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="48" font-weight="bold">
+    Rút Tiền Thẻ Tín Dụng Cần Thơ
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="260" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32">
+    Phí thấp 1.8% - Hỗ trợ 24/7
+  </text>
+  
+  <!-- Features -->
+  <text x="600" y="320" text-anchor="middle" fill="#e0f2fe" font-family="Arial, sans-serif" font-size="24">
+    ⭐ Uy tín - An toàn - Nhanh chóng ⭐
+  </text>
+  
+  <!-- Contact -->
+  <text x="600" y="380" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">
+    📞 Hotline: 0939.11.72.82
+  </text>
+  
+  <!-- Location -->
+  <text x="600" y="430" text-anchor="middle" fill="#bae6fd" font-family="Arial, sans-serif" font-size="20">
+    📍 Phục vụ tất cả quận huyện Cần Thơ
+  </text>
+  
+  <!-- Credit Card Icons -->
+  <rect x="450" y="480" width="80" height="50" rx="8" fill="white" opacity="0.9"/>
+  <text x="490" y="510" text-anchor="middle" fill="#0369a1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">VISA</text>
+  
+  <rect x="560" y="480" width="80" height="50" rx="8" fill="white" opacity="0.9"/>
+  <text x="600" y="510" text-anchor="middle" fill="#0369a1" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Master</text>
+  
+  <rect x="670" y="480" width="80" height="50" rx="8" fill="white" opacity="0.9"/>
+  <text x="710" y="510" text-anchor="middle" fill="#0369a1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">JCB</text>
+</svg>
